@@ -18,7 +18,7 @@ src
 
 ## 使用说明
 
-1、不使用FFT_template模板，可以直接使用vue-cli脚手架进行生成项目
+1、不使用vue_template模板，可以直接使用vue-cli脚手架进行生成项目
 ``` bash
 $ npm install -g vue-cli
 $ vue init webpack my-project
@@ -26,7 +26,7 @@ $ cd my-project
 $ npm install
 $ npm run dev
 ```
-2、使用FFT_template自定义模板，可直接在终端运行此指令
+2、使用vue_template自定义模板，可直接在终端运行此指令
 
 1>默认模板分支：master
 ``` bash
