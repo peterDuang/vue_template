@@ -1,4 +1,4 @@
-# 付费通-自定义vue-cli模板
+# peterDuang-自定义vue-cli模板
 
 在使用vue-cli的过程中，常用的webpack模板只为我们提供最基础的内容，但每次需要新建一个项目的时候就需要把之前项目的一些配置都搬过来，这样就造成挺大的不方便，如果是作为一个团队，那么维护一个通用的模板，我认为是挺有必要的。
 
@@ -30,13 +30,13 @@ $ npm run dev
 
 1>默认模板分支：master
 ``` bash
-$ vue init gitlab:http://192.168.89.9:zouxiaochun/webpack my-project
+$ vue init peterDuang/vue_template my-project
 ```
 
 2>指定模板分支
 
 ``` bash
-$ vue init gitlab:http://192.168.89.9:zouxiaochun/webpack#develop my-project
+$ vue init vue init peterDuang/vue_template my-project
 ```
 develop表示指定的分支版本
 说明：[使用git gitlab下载模板规则](https://www.npmjs.com/package/download-git-repo)
