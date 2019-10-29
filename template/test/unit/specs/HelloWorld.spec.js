@@ -6,6 +6,6 @@ describe('HelloWorld.vue', () => {
     const Constructor = Vue.extend(HelloWorld)
     const vm = new Constructor().$mount()
     expect(vm.$el.querySelector('.hello h1').textContent)
-    {{#if_eq runner "karma" }}.to.equal('Welcome to FFT Vue template'){{/if_eq}}{{#if_eq runner "jest"}}.toEqual('Welcome to FFT Vue template'){{/if_eq}}
+    {{#if_eq runner "karma" }}.to.equal('Welcome to Vue template'){{/if_eq}}{{#if_eq runner "jest"}}.toEqual('Welcome to Vue template'){{/if_eq}}
   })
 })

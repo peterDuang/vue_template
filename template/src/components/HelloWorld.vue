@@ -43,7 +43,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to FFT Vue template'
+      msg: 'Welcome to Vue template'
     }
   }
 }
